@@ -3,7 +3,7 @@ import './App.css'
 
 const galleryImages = Array.from(
   { length: 37 },
-  (_, index) => `15070 Summer Harvest St ${index + 1}.jpg`,
+  (_, index) => `15070-summer-harvest-st-${index + 1}.jpg`,
 )
 
 function App() {
@@ -82,7 +82,7 @@ function App() {
         </div>
 
         <img
-          src="/images/15070 Summer Harvest St 1.jpg"
+          src="/images/15070-summer-harvest-st-1.jpg"
           alt="Front view of 15070 Summer Harvest St"
           className="hero-image"
         />
