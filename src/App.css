@@ -201,3 +201,61 @@
     right: 16px;
   }
 }
+
+/* GPT SUGGESTIONS */
+.detail-card {
+  background: white;
+  border-radius: 12px;
+  padding: 18px;
+  border: 1px solid #e5e7eb;
+}
+.value-prop {
+  margin: 30px 0;
+}
+/* .gallery figure:first-child {
+  grid-column: span 2;
+}
+
+.gallery figure:nth-child(2) {
+  grid-column: span 2;
+} */
+.hero-address {
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.quick-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.quick-facts span {
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  background: #f3f3f3;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.hero-button {
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.hero-button.primary {
+  background: #111;
+  color: #fff;
+}
+
+.hero-button.secondary {
+  background: #f3f3f3;
+  color: #111;
+}
