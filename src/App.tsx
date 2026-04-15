@@ -159,8 +159,8 @@ function App() {
             schedule a private tour.
           </p>
           <div className="contact-links">
-            <a href="tel:+15551234567">(555) 123-4567</a>
-            <a href="mailto:hello@example.com">hello@example.com</a>
+            <a href="tel:+14075521563">(407) 552-1563</a>
+            <a href="mailto:hello@example.com">mpwgresorts@mac.com</a>
           </div>
         </section>
       </main>
