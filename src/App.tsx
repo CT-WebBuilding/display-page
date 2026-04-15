@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
+import BackToTop from './components/BackToTop'
 
 const galleryImages = Array.from(
   { length: 37 },
@@ -164,6 +165,8 @@ function App() {
           </div>
         </section>
       </main>
+
+      <BackToTop />
 
       {activeImageIndex !== null && (
         <div
