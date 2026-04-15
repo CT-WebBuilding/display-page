@@ -126,7 +126,7 @@ function App() {
             </ul>
           </article>
         </section>
-
+        <h6 className="gallery-hint">(click on images to view larger)</h6>
         <section
           className="gallery"
           id="gallery"
