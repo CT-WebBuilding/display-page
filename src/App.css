@@ -259,3 +259,37 @@
   background: #f3f3f3;
   color: #111;
 }
+
+.hero-price {
+  font-size: 2em;
+  font-weight: 700;
+  color: #111827;
+  margin: 8px 0 4px;
+}
+
+.video {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.video h2 {
+  margin-bottom: 12px;
+  color: #111827;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+.video-wrapper {
+  display: inline-block;
+  padding: 10px;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.video-wrapper iframe {
+  width: 320px;
+  height: 569px;
+  border: none;
+  border-radius: 12px;
+}

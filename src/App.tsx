@@ -58,6 +58,7 @@ function App() {
       <header className="hero" id="top">
         <p className="label">Home For Sale</p>
         <h1>Modern 5-Bedroom Winter Garden Home With Private In-Law Suite</h1>
+        <p className="hero-price">$729,900</p>
         <p className="hero-address">15070 Summer Harvest St, Winter Garden, FL</p>
         <p className="hero-copy">
           Built in 2025 on a premium corner lot, this spacious home offers high
@@ -90,13 +91,25 @@ function App() {
       </header>
 
       <main>
+      <section className="video">
+  <h2>Take a quick video tour of the home!</h2>
+  <div className="video-wrapper">
+    <iframe
+      src="https://player.cloudinary.com/embed/?cloud_name=do1wpcfg7&public_id=Video_Apr_21_2026_10_23_13_AM_fitm6a"
+      allow="autoplay; fullscreen"
+      allowFullScreen
+      loading="lazy"
+      title="Home walkthrough video"
+    />
+  </div>
+</section>
         <section className="details">
           <article className="detail-card">
           <section className="value-prop">
   <h2>Designed for flexibility and modern living</h2>
   <p>
     With a private in-law suite, high ceilings, and a spacious layout, this home
-    is ideal for multigenerational living, remote work, or simply having room to grow.
+    is ideal for multi-generational living, remote work, or simply having room to grow.
   </p>
 </section>
             <h2>Property Highlights</h2>
