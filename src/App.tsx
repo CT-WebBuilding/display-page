@@ -58,7 +58,7 @@ function App() {
       <header className="hero" id="top">
         <p className="label">Home For Sale</p>
         <h1>Modern 5-Bedroom Winter Garden Home With Private In-Law Suite</h1>
-        <p className="hero-price">$729,900</p>
+        <p className="hero-price">$699,000</p>
         <p className="hero-address">15070 Summer Harvest St, Winter Garden, FL</p>
         <p className="hero-copy">
           Built in 2025 on a premium corner lot, this spacious home offers high
